@@ -27,7 +27,21 @@ It combines **OpenCV**, **Ultralytics YOLO-World**, and **PySide6** with a custo
 ## A.E.G.I.S. Interface
 
 <p align="center">
-  <img src="assets/aegis-demo.png" alt="A.E.G.I.S. application interface" width="100%">
+  <img src="assets/aegis-interface.png" alt="A.E.G.I.S. application interface" width="100%">
+</p>
+
+<p align="center">
+  <em>The A.E.G.I.S. desktop interface for camera control, live detections, and system monitoring.</em>
+</p>
+
+## Object Detection in Action
+
+<p align="center">
+  <img src="assets/aegis-detection-demo.png" alt="A.E.G.I.S. real-time open-vocabulary object detection" width="100%">
+</p>
+
+<p align="center">
+  <em>Real-time open-vocabulary object detection with the A.E.G.I.S. vision HUD.</em>
 </p>
 
 ## Features
@@ -144,7 +158,8 @@ AEGIS-VISION/
 │   ├── __init__.py
 │   └── app.py
 ├── assets/
-│   └── aegis-demo.png
+│   ├── aegis-interface.png
+│   └── aegis-detection-demo.png
 ├── run.py
 ├── requirements.txt
 ├── start_mac.command
